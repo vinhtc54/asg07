@@ -63,7 +63,7 @@ public class MyList implements Item {
 			boolean b = true;
 			while (node1 != null && node2 != null) {
 				b = node1.data.equals(node2.data);
-				if (b = false)
+				if (b == false)
 					break;
 				else
 					node1 = node1.next;
